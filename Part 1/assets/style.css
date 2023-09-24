@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+	height: 50px;
+    padding: 10px;
+    font: 900 15px "Roboto", sans-serif;
+    text-align: center;
+    background: rgb(207, 203, 203);
+}
+p {
+    padding-top: 10px;
+}
+.flex-container {
+    width: 100%;
+	height: 600px;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    justify-content: center;
+    font: 900 15px "Roboto", sans-serif;
+    text-align: center;
+    background: rgb(247, 233, 186);
+    border: 5px solid #7f00f7;
+}
+.flex-item {
+    padding 20px;
+    font: 900 15px "Roboto", sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.item-1 {
+    width: 435px;
+    height: 70px;
+    position: absolute;
+    left: 20px;
+    top: 400px;
+    padding: 10px;
+    background: rgb(239, 187, 75);
+}
+.item-2 {
+    width: 435px;
+    height: 70px;
+    position: absolute;
+    left: 475px;
+    top: 400px;
+    padding: 10px;
+    background: rgb(239, 187, 75);
+}
+.item-3 {
+    width: 890px;
+    height: 70px;
+    position: absolute;
+    left: 20px;
+    top: 500px;
+    padding: 10px;
+    background: rgb(239, 187, 75);
+}
+.item-4 {    
+    width: 35%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    background: rgb(193, 244, 154);
+}
+.container {
+    display: flex;
+    margin: 0 auto;
+    height: 150px;
+    padding: 65px;
+    justify-content: space-between;
+    align-items: center;
+    font: 900 15px "Roboto", sans-serif;
+    text-align: center;
+    background: rgb(207, 203, 203);
+}
+.box {
+    width: 50px;
+    height: 70px;
+    text-align: center;
+    background: white;
+}
+.box-1 {
+    width: 270px;
+    height: 100px;
+    padding: 35px;
+    background: white;
+}
+.box-2 {
+    width: 270px;
+    height: 100px;
+    padding: 35px;
+    background: white;
+}
+.box-3 {
+    width: 270px;
+    height: 100px;
+    padding: 35px;
+    background: white;
+}
+.box-4 {
+    width: 270px;
+    height: 100px;
+    padding: 35px;
+    background: white;
+}
